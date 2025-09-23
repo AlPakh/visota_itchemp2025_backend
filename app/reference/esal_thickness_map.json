@@ -1,0 +1,11 @@
+{
+  "_about": "Рекомендуемая суммарная толщина АБ-пакета по накопленным ESAL(115 кН). Использовать для sanity-check и подсказок.",
+  "ranges": [
+    { "esal_min": 0,       "esal_max": 200000,   "h_ab_total_cm": 8  },
+    { "esal_min": 200000,  "esal_max": 500000,   "h_ab_total_cm": 10 },
+    { "esal_min": 500000,  "esal_max": 1000000,  "h_ab_total_cm": 12 },
+    { "esal_min": 1000000, "esal_max": 3000000,  "h_ab_total_cm": 14 },
+    { "esal_min": 3000000, "esal_max": 6000000,  "h_ab_total_cm": 16 },
+    { "esal_min": 6000000, "esal_max": 10000000, "h_ab_total_cm": 18 }
+  ]
+}

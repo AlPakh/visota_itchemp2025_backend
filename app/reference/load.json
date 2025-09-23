@@ -1,0 +1,7 @@
+{
+  "_about": "Нагрузочные параметры шины и преобразование оси в давление/пятно контакта.",
+  "tire_pressure_MPa_default": 0.7,
+  "dual_tire_default": true,
+  "wheel_per_axle": 2,
+  "contact_formula": "D = sqrt(4*Q/(pi*p)), a = D/2; Q — нагрузка на колесо (кН), p — давление (МПа)."
+}

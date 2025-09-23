@@ -1,0 +1,8 @@
+{
+  "_about": "Сезонные множители/профили по зонам: доли года и укрупнённые коэффициенты для усталости и колеи.",
+  "1": { "fatigue_factor": 0.33, "rutting_factor": 0.17, "profile": { "cold": 0.55, "mid": 0.35, "hot": 0.10 } },
+  "2": { "fatigue_factor": 0.35, "rutting_factor": 0.20, "profile": { "cold": 0.45, "mid": 0.40, "hot": 0.15 } },
+  "3": { "fatigue_factor": 0.40, "rutting_factor": 0.25, "profile": { "cold": 0.35, "mid": 0.45, "hot": 0.20 } },
+  "4": { "fatigue_factor": 0.45, "rutting_factor": 0.30, "profile": { "cold": 0.25, "mid": 0.50, "hot": 0.25 } },
+  "5": { "fatigue_factor": 0.50, "rutting_factor": 0.35, "profile": { "cold": 0.15, "mid": 0.50, "hot": 0.35 } }
+}

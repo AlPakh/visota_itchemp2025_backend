@@ -1,0 +1,4 @@
+{
+  "_about": "Параметры модели колееобразования (укрупнённо). Trut = K_rut * (1/eps_z)^m_rut * season.",
+  "defaults": { "K_rut": 0.000135, "m_rut": 4.45, "criterion_rut_mm": 20 }
+}

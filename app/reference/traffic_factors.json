@@ -1,0 +1,15 @@
+{
+  "_about": "Параметры для расчёта ESAL(115 кН): коэффициенты распределения по полосам/направлениям, рост, период, правило степени.",
+  "design_period_years_default": 20,
+  "traffic_growth_pct_default": 2.0,
+  "ref_axle_kN": 115,
+  "equivalency_exponent": 4.2,
+  "DDF_default": 0.5,
+  "LDF_by_lanes": {
+    "1": 1.00,
+    "2": 0.90,
+    "3": 0.80,
+    "4": 0.70,
+    "6": 0.55
+  }
+}

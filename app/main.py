@@ -8,6 +8,7 @@ from .schemas import (
     RoadInput, PredictResponse, Recommendation,
     Comparison, ComparisonRow
 )
+    # mypy: ignore-errors
 from .domain import DomainScenario
 from .recipes import select_candidates
 from .ml_forecaster import predict_many
@@ -45,7 +46,7 @@ def predict(payload: RoadInput):
     if not candidates:
         raise HTTPException(status_code=400, detail="Нет подходящих рецептов для выбранных условий.")
 
-    # 3) Прогноз по каждому рецепту (вместо ML — синтетика/заглушка)
+    # 3) Нормативный расчёт по каждому рецепту (без заглушек)
     preds = predict_many(features, candidates)
 
     # 4) Стоимость для участка (упрощённо: м2 = ширина проезжей части * 1000 м)

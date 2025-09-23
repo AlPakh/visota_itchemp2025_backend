@@ -10,13 +10,13 @@ class AsphaltType(str, Enum):
 
 
 class RoadInput(BaseModel):
-    # 1) Конструкция ДО
+    # 1) Конструкция ДО (базовые параметры выбора)
     zone: conint(ge=1, le=5) = Field(..., description="Дорожно-климатическая зона (1-5)")
     asphalt_type: AsphaltType = Field(..., description="Вид асфальтобетона")
     category: conint(ge=1, le=5) = Field(..., description="Категория дороги (1-5)")
     bitumen_grade: str = Field(..., description="Марка битума (напр. 'БНД 60/90')")
 
-    # 2) Нагрузка
+    # 2) Нагрузка/движение
     intensity: conint(ge=0) = Field(..., description="Интенсивность движения, авт/сут")
     flow_structure_pct: conint(ge=0, le=100) = Field(..., description="Доля тяжёлых ТС, %")
     speed: conint(ge=0) = Field(..., description="Средняя скорость, км/ч")
